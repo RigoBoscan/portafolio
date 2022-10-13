@@ -1,5 +1,21 @@
-.container-home{
-    width: 100%;
-    max-width: 100%;
-    padding: 0;
+.container-home {
+  width: 100%;
+  max-width: 100%;
+  padding: 20px;
+  background-color: #171717;
+
+  .information{
+    p{
+      color: #ADADAD;
+      font-size: 25px;
+      font-weight: 300;
+      font-family: "Fira Code";
+    }
+    h1{
+      color: #ADADAD;
+      font-size: 40px;
+      line-height: 40px;
+      font-weight: 500;
+    }
+  }
 }

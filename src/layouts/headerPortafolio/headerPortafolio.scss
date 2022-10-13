@@ -1,29 +1,21 @@
 .container-header {
-  width: 100%;
-  max-width: 100%;
-  padding: 0;
-  .header {
-    border-radius: 0;
+  padding: 0px;
+  .v-toolbar__content {
+    height: 70px !important;
   }
-  .menu-header {
-    background-color: #33334a;
-    .v-navigation-drawer__content{
-        width: 250px;
+  .header {
+    height: 65px !important;
+
+    .flag {
+      border-radius: 59px;
+      margin-right: 16px;
     }
 
-    .container-avatar__rigo{
-        text-align: center;
-        margin-top: 30px;
-        padding-bottom: 30px;
-        width: 100%;
-        border-bottom: 1px solid #78787870;
-        .avatar-rigo {
-          img {
-            object-fit: cover;
-            background-color: #2E344E;
-            padding: 8px;
-          }
-        }
+    .explorar {
+      color: #adadad;
+      text-decoration-line: underline;
+      font-weight: 400;
+      font-size: 25px;
     }
   }
 }
