@@ -5,17 +5,15 @@
   }
   .header {
     height: 65px !important;
-
+    .container-options{
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: space-between;
+    }
     .flag {
       border-radius: 59px;
       margin-right: 16px;
-    }
-
-    .explorar {
-      color: #adadad;
-      text-decoration-line: underline;
-      font-weight: 400;
-      font-size: 25px;
     }
   }
 }

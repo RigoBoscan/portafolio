@@ -6,18 +6,20 @@
         FRONTEND <br />
         DEV.
       </h1>
-      <img
-        class="mt-3"
-        width="281px"
-        height="393px"
-        src="../../assets/img/imageprueba.png"
-        alt=""
-      />
-
+      <v-row class="container-imagen" no-gutters align="center">
+        <img
+          class="mt-3"
+          width="281px"
+          height="393px"
+          src="../../assets/img/imageprueba.png"
+          alt=""
+        />
+        <img width="130px" class="frame" src="../../assets/img/Frame.png" alt="">
+      </v-row>
       <p class="description mt-5">
         Hola, mi nombre es <span class="span-yellow">Rigoberto</span> y soy un
-        desarrollador <span class="span-pink">Front-end</span> Junior. Sientete libre de explorar todo sobre mi
-        a través de este Portafolio.
+        desarrollador <span class="span-pink">Front-end</span> Junior. Sientete
+        libre de explorar todo sobre mi a través de este Portafolio.
       </p>
     </div>
   </v-container>

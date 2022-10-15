@@ -1,0 +1,18 @@
+.container-modal {
+  .explorar {
+    color: #ADADAD;
+    text-decoration-line: underline;
+    font-weight: 400;
+    font-size: 25px !important;
+    text-transform: none;
+    letter-spacing: normal;
+  }
+
+  .explorar:focus::before {
+    opacity: 0 !important;
+  }
+}
+
+.explore-modal {
+  padding: 20px;
+}
