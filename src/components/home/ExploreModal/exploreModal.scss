@@ -1,6 +1,10 @@
 .container-modal {
+  .dialog{
+    overflow-x: hidden ;
+    z-index: 10;
+  }
   .explorar {
-    color: #ADADAD;
+    color: #adadad;
     text-decoration-line: underline;
     font-weight: 400;
     font-size: 25px !important;
@@ -15,4 +19,21 @@
 
 .explore-modal {
   padding: 20px;
+
+  .information-modal {
+    h1 {
+      font-size: 30px;
+    }
+
+    .divider {
+      color: #adadad;
+    }
+  }
+
+  .container-contact{
+    .contact{
+      color: #FFD066;
+      text-decoration: none;
+    }
+  }
 }

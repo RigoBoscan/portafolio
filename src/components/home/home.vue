@@ -11,10 +11,15 @@
           class="mt-3"
           width="281px"
           height="393px"
-          src="../../assets/img/imageprueba.png"
+          src="../../assets/img/image.jpg"
           alt=""
         />
-        <img width="130px" class="frame" src="../../assets/img/Frame.png" alt="">
+        <img
+          width="130px"
+          class="frame"
+          src="../../assets/img/Frame.png"
+          alt=""
+        />
       </v-row>
       <p class="description mt-5">
         Hola, mi nombre es <span class="span-yellow">Rigoberto</span> y soy un
