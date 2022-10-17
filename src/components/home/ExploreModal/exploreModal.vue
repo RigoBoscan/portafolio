@@ -115,7 +115,7 @@
               </p>
               <div>
                 <v-row no-gutters align="center" class="mt-5">
-                  <a class="contact" href="">EMAIL</a>
+                  <a class="contact" href="mailto:rigobrertt.1610@gmail.com">EMAIL</a>
                   <img
                     class="ml-2 mb-1"
                     src="../../../assets/img/arrow-yellow.png"
@@ -123,7 +123,12 @@
                   />
                 </v-row>
                 <v-row no-gutters align="center" class="mt-2">
-                  <a class="contact" href="">WHATSAPP</a>
+                  <a
+                    target="_blank"
+                    class="contact"
+                    href="https://api.whatsapp.com/send?phone=5804147135798&text=Hola%20Rigoberto,%20vengo%20desde%20tu%20portafolio,%20quiero%20charlar%20"
+                    >WHATSAPP</a
+                  >
                   <img
                     class="ml-2 mb-1"
                     src="../../../assets/img/arrow-yellow.png"
@@ -131,7 +136,11 @@
                   />
                 </v-row>
                 <v-row no-gutters align="center" class="mt-2">
-                  <a class="contact" href="">LINKEDIN</a>
+                  <a
+                    class="contact"
+                    href="https://www.linkedin.com/in/rigoberto-urdaneta-8b0916233/"
+                    >LINKEDIN</a
+                  >
                   <img
                     class="ml-2 mb-1"
                     src="../../../assets/img/arrow-yellow.png"
