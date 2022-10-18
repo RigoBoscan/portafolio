@@ -51,8 +51,12 @@
             </div>
           </v-row>
         </v-flex>
-
-        <p class="text-center mt-16">
+        <div class="block mt-16">
+          <div class="block-in">
+            <div class="clock"></div>
+          </div>
+        </div>
+        <p class="text-center mt-3">
           Estoy esperando por ti para <br />
           adquirir más experiencia
         </p>
