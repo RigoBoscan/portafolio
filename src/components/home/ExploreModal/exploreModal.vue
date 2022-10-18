@@ -33,7 +33,7 @@
                 align="center"
                 class="mt-6 justify-space-between"
               >
-                <h1>EXPERIENCIA</h1>
+                <ExperienceInfo />
                 <img
                   height="17px"
                   width="15px"
@@ -115,7 +115,9 @@
               </p>
               <div>
                 <v-row no-gutters align="center" class="mt-5">
-                  <a class="contact" href="mailto:rigobrertt.1610@gmail.com">EMAIL</a>
+                  <a class="contact" href="mailto:rigobrertt.1610@gmail.com"
+                    >EMAIL</a
+                  >
                   <img
                     class="ml-2 mb-1"
                     src="../../../assets/img/arrow-yellow.png"
@@ -157,12 +159,14 @@
 </template>
 
 <script>
+import ExperienceInfo from "../../experienceInfo/experienceInfo.vue";
 export default {
   data() {
     return {
       dialog: false,
     };
   },
+  components: { ExperienceInfo },
 };
 </script>
 

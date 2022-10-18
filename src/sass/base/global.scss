@@ -7,7 +7,7 @@ h1 {
   color: #adadad;
   font-size: 40px;
   line-height: 40px;
-  font-weight: 450;
+  font-weight: 400;
   font-family: "Fira Code";
 }
 
@@ -21,6 +21,18 @@ p {
 
 a {
   font-family: "Fira Code";
+}
+
+span{
+  font-family: "Fira Code";
+}
+
+li{
+  padding: 0;
+  list-style: none;
+  font-family: "Fira Code";
+  color: #adadad;
+  font-size: 18px;
 }
 
 .container {
