@@ -1,6 +1,6 @@
 <template>
   <v-container class="container-home">
-    <div class="information">
+    <div class="information mt-5">
       <p class="mb-0 name">RIGOBERTO U.</p>
       <h1>
         FRONTEND <br />
