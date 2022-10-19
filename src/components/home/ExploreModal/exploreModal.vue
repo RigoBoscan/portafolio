@@ -49,7 +49,7 @@
                 align="center"
                 class="mt-6 justify-space-between"
               >
-                <h1>HABILIDADES</h1>
+                <SkillsInfo />
                 <img
                   height="17px"
                   width="15px"
@@ -160,13 +160,14 @@
 
 <script>
 import ExperienceInfo from "../../experienceInfo/experienceInfo.vue";
+import SkillsInfo from "@/components/skillsInfo/skillsInfo.vue";
 export default {
   data() {
     return {
       dialog: false,
     };
   },
-  components: { ExperienceInfo },
+  components: { ExperienceInfo, SkillsInfo },
 };
 </script>
 
